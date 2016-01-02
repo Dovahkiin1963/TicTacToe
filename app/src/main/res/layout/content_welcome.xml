@@ -15,7 +15,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/play"
+        android:text="@string/singleplayer"
         android:id="@+id/buttonPlay"
         android:onClick="playGame"
         android:layout_marginTop="116dp"
