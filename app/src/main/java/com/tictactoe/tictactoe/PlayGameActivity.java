@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.app.AlertDialog;
 
@@ -18,6 +19,7 @@ public class PlayGameActivity extends AppCompatActivity {
     private int currentColor = R.drawable.circle_blue;
     private int [] leJeu = new int[9];
     private int idAtrouver, positionDansLeJeu;
+    private Button resign;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,9 @@ public class PlayGameActivity extends AppCompatActivity {
         for (int i=0 ; i<leJeu.length ; i++) {
             leJeu[i] = R.drawable.circle_blank;
         }
+
+        resign = (Button) findViewById(R.id.resign);
+        resign.setVisibility(View.GONE);
     }
 
     /*** Called when the user wants to resign */
@@ -86,6 +91,8 @@ public class PlayGameActivity extends AppCompatActivity {
             alertDialog.setIcon(R.drawable.win);
             alertDialog.show();
 
+            resign = (Button) findViewById(R.id.resign);
+            resign.setVisibility(View.VISIBLE);
         }
 
         if (checkPlayerWins(R.drawable.circle_red)) {
@@ -96,6 +103,8 @@ public class PlayGameActivity extends AppCompatActivity {
             alertDialog.setIcon(R.drawable.win);
             alertDialog.show();
 
+            resign = (Button) findViewById(R.id.resign);
+            resign.setVisibility(View.VISIBLE);
         }
         // TODO: Check si plus possible de jouer
 

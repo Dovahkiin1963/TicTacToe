@@ -4,7 +4,7 @@
     <string name="welcome">Tic-Tac-Toe</string>
     <string name="singleplayer">Play</string>
     <string name="title_activity_play_game">Let\'s play</string>
-    <string name="resign">Resign</string>
+    <string name="resign">Recommencer</string>
     <string name="win_title">Bravo nous avons un gagnant !</string>
     <string name="win_player1">Joueur 1 (couleur bleue) à gagné !</string>
     <string name="win_player2">Joueur 2 (couleur rouge) à gagné !</string>
