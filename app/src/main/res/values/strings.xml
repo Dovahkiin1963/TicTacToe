@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Tic-Tac-Toe</string>
+    <string name="play">Play</string>
+    <string name="title_activity_play_game">Let\'s play</string>
+    <string name="resign">Resign</string>
+    <string name="mail">My mail is: dovahkiin1963yt@gmail.com</string>
+    <string name="win_title">Bravo !</string>
+    <string name="win_player1">Joueur 1</string>
+    <string name="win_player2">Joueur 2</string>
+</resources>
