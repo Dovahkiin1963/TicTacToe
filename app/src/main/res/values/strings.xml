@@ -2,11 +2,11 @@
     <string name="app_name">Tic-Tac-Toe</string>
     <string name="action_settings">Settings</string>
     <string name="welcome">Tic-Tac-Toe</string>
-    <string name="singleplayer">SinglePlayer</string>
+    <string name="singleplayer">Play</string>
     <string name="title_activity_play_game">Let\'s play</string>
     <string name="resign">Resign</string>
-    <string name="win_title">Bravo !</string>
-    <string name="win_player1">Joueur 1 à gagné !</string>
-    <string name="win_player2">Joueur 2 à gagné !</string>
+    <string name="win_title">Bravo nous avons un gagnant !</string>
+    <string name="win_player1">Joueur 1 (couleur bleue) à gagné !</string>
+    <string name="win_player2">Joueur 2 (couleur rouge) à gagné !</string>
     <string name="return_game">Return to the game</string>
 </resources>
